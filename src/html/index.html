@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="../../tailwind-build.css">
+    </head>
+    <body class="tw:px-4">
+        <h3 class="tw:text-2xl">Hello World</h3>    
+        <p></p>
+        <script></script>
+        <div class="tw:w-[320px] tw:mx-auto tw:my-4 tw:space-y-4">
+        <h4 class="tw:text-2xl">Shipping Info</h4>
+        <div class="tw:space-y-1.5 tw:group tw:is-error">
+            <div class="tw:flex tw:justify-between">
+                <label class="tw:text-sm tw:text-secondary tw:block tw:font-semibold group-[.is-error]:tw:text-error">User Name<sup>*</sup></label>
+            </div>
+            <input type="text" placeholder="enter your user name" class="tw:appearance-none tw:text-base tw:leading-6 tw:text-primary tw:p-2 tw:h-[40px] tw:border tw:rounded-none! tw:border-[rgba(193,198,214,0.40)] tw:block tw:w-full tw:outline-none group-[.is-error]:tw:border-error group-[.is-error]:tw:bg-error-bg read-only:tw:pointer-events-none read-only:tw:focus-within-select-none read-only:focus-within:tw:outline-none read-only:focus-within:tw:offset-none">
+            <p class="tw:text-error tw:hidden group-[.is-error]:tw:block">please enter correct message</p>
+        </div>
+        <div class="tw:space-y-1.5 tw:group">
+            <div class="tw:flex tw:justify-between">
+                <label class="tw:text-sm tw:text-secondary tw:block tw:font-semibold group-[.is-error]:tw:text-error">Email<sup>*</sup></label>
+            </div>
+            <input type="text" placeholder="enter your email" class="tw:appearance-none tw:text-base tw:leading-6 tw:text-primary tw:p-2 tw:h-[40px] tw:border tw:border-[rgba(193,198,214,0.40)] tw:block tw:w-full tw:outline-none group-[.is-error]:tw:border-error group-[.is-error]:tw:bg-error-bg read-only:tw:pointer-events-none read-only:tw:select-none read-only:focus:tw:outline-none">
+            <p class="tw:text-error tw:hidden group-[.is-error]:tw:block">please enter correct message</p>
+            </div>
+            
+            <div class="tw:my-5 tw:flex tw:gap-x-4">
+            <div class="tw:flex tw:items-center tw:gap-x-1.5"><span class="tw:order-last">Yes</span>
+                <input checked class="tw:w-4 tw:h-4 tw:peer" hidden="" id="default-radio3" name="valuex" type="radio">
+                <label class="tw:relative tw:flex tw:items-center tw:justify-center tw:p-0.5 peer-checked:before:tw:hidden before:tw:block before:tw:absolute before:tw:w-full before:tw:h-full before:tw:bg-white peer-checked:tw:bg-blue tw:size-4 tw:cursor-pointer tw:border-2 tw:border-[rgba(193,198,214,0.40)] tw:rounded-full tw:overflow-hidden"
+                    for="default-radio3">
+                <span class="tw:block tw:bg-white tw:rounded-full tw:size-1.5"></span>
+                </label>
+            </div>
+            <div class="tw:flex tw:items-center tw:gap-x-1.5"><span class="tw:order-last">No</span>
+                <input class="tw:w-4 tw:h-4 tw:peer" hidden="" id="default-radio4" name="valuex" type="radio">
+                <label class="tw:relative tw:flex tw:items-center tw:justify-center tw:p-0.5 peer-checked:before:tw:hidden before:tw:block before:tw:absolute before:tw:w-full before:tw:h-full before:tw:bg-white peer-checked:tw:bg-blue tw:size-4 tw:cursor-pointer tw:border-2 tw:border-[rgba(193,198,214,0.40)] tw:rounded-full tw:overflow-hidden"
+                    for="default-radio4">
+                <span class="tw:block tw:bg-white tw:rounded-full tw:size-1.5"></span>
+                </label>
+            </div>
+            </div>
+
+
+        </div>
+
+    </body>
+</html>
