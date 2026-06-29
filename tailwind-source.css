@@ -1,0 +1,12 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme) prefix(tw);
+/* 嫁接到已有项目里面，不要引用base */
+@import "tailwindcss/preflight.css" layer(base) prefix(tw);
+@import "tailwindcss/utilities.css" layer(utilities) prefix(tw);
+:root{
+    --color-secondary:#404040;
+}
+
+@theme{
+
+}
