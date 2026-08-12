@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tailwindserve": "npx @tailwindcss/cli -i tailwind-source.css -o tailwind-build.css --watch",
-    "serves": "browser-sync start --port 3000 --server --startPath ./src/html --no-ghost-mode"
+    "serves": "browser-sync start --port 3000 --server --startPath ./src/html --no-ghost-mode",
+    "prettier": "prettier --write \"src/**/*.{html,js,ts,jsx,tsx,vue,svelte}\""
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,8 @@
   "type": "commonjs",
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.13",
+    "prettier": "^3.9.6",
+    "prettier-plugin-tailwindcss": "^0.8.1",
     "tailwindcss": "^4.1.13"
   }
 }
